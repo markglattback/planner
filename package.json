@@ -1,0 +1,39 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@apollo/client": "^3.0.0-beta.41",
+    "@apollo/link-context": "^2.0.0-beta.3",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@apollo/react-ssr": "^4.0.0-beta.1",
+    "@types/mongoose": "^5.7.7",
+    "apollo-server-micro": "^2.11.0",
+    "bcrpyt": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.0",
+    "dotenv": "^8.2.0",
+    "graphql-tag": "^2.10.3",
+    "isomorphic-unfetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "next": "^9.3.3",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.25",
+    "babel-plugin-styled-components": "^1.10.7",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

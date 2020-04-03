@@ -1,0 +1,13 @@
+# Next Build Directory
+.next
+
+# Node Modules
+node_modules/
+
+# Environment variables
+.env
+.env.build
+next.config.js
+
+# Logs
+npm-debug.log*
